@@ -4,6 +4,7 @@ Mercedes–Benz /developers API client (see https://developer.mercedes-benz.com/
 
 The ruby library supports the following Mercedes–Benz API's:
 
+
 - [ ] Image
 - [ ] Dealer Locator (API endpoint not released)
 - [ ] Car Configurator (API endpoint not released)
