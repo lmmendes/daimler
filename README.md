@@ -5,10 +5,9 @@ Mercedes–Benz /developers API client (see https://developer.mercedes-benz.com/
 The ruby library supports the following Mercedes–Benz API's:
 
 - [ ] Image
-  Quickly integrate Mercedes–Benz car images into your own app or business model.
 - [ ] Dealer Locator (API endpoint not released)
 - [ ] Car Configurator (API endpoint not released)
-- [ ]Connected Vehicle (API endpoint not released)
+- [ ] Connected Vehicle (API endpoint not released)
 
 
 ## Installation
@@ -32,7 +31,7 @@ Or install it yourself as:
 ### Configuration
 
 ```ruby
-# You can set Columbus configuration at class level like so
+# You can set configuration at class level like so
 Daimler.configure do |c|
   c.api_key   = ENV['DAIMLER_API_KEY']
 end
