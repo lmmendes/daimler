@@ -45,7 +45,7 @@ end
 ### Image API
 
 ```ruby
-client = Daimler.new(api_key: "...")
+client = Daimler.new(api_key: ENV['DAIMLER_API_KEY'])
 
 vehicle = client.images(vin: "WDD2130331A123456")
 
