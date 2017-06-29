@@ -42,6 +42,18 @@ end
 )
 ```
 
+### Image API
+
+```ruby
+client = Daimler.new(api_key: "...")
+
+vehicle = client.images(vin: "WDD2130331A123456")
+
+images = vehicle.interior()
+
+images = vehicle.interior(perspectives: %w(INT1 INT2), night: true, roof_open: true)
+```
+
 ## Bug reports and other issues
 
 * https://github.com/lmmendes/daimler/issues
