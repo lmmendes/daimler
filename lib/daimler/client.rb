@@ -12,7 +12,8 @@ module Daimler
     end
 
     def images(options = {})
-      Images.new(self, options)
+      merge_options = { client: self }.merge( options )
+      Images::Vehicle.new(merge_options)
     end
   end
 end

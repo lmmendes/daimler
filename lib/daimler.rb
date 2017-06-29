@@ -1,7 +1,7 @@
 require "daimler/version"
 require "daimler/configuration"
 require "daimler/request"
-require "daimler/images"
+require "daimler/images/vehicle"
 require "daimler/client"
 
 require 'rest-client'
